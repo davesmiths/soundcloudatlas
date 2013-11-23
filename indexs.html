@@ -1,0 +1,40 @@
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="http://connect.soundcloud.com/sdk.js"></script>
+<script>
+SC.initialize({
+  client_id: 'e922ed0ef3d66bc7e71356a77447ee68'
+});
+// find all sounds of buskers licensed under 'creative commons share alike'
+//SC.get('/tracks', { q: '', license: 'cc-by-sa'}, function(tracks) {
+SC.get('/tracks', { q: 'geo:lat:', tags:'' }, function(tracks) {
+  outputTracks(tracks);
+});
+/*
+    soundcloud:source=iphone-record
+    geo:lat=53.348809
+    geo:lon=-6.273492 
+*/
+var outputTracks = function(tracks) {
+
+    var tracksLength = tracks.length
+    ,   i
+    ,   html = ''
+    ;
+    
+    for (i = 0; i < tracksLength; i += 1) {
+        track = tracks[i];
+        html += '<div class="track">';
+        html += '<h3>'+track.title+'</h3>';
+        html += '<p>By '+track.user.username+'</p>';
+        html += '<p>Tags: '+track.tag_list+'</p>';
+        html += '';
+        html += '</div>';
+    }
+    
+    $(function() {
+       $('.output').html(html); 
+    });
+};
+
+</script>
+<div class="output"></div>

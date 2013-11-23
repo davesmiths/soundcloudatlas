@@ -1,0 +1,29 @@
+html,
+body,
+#map-canvas {margin:0;padding:0;height:100%;}
+
+.visual-hide {position:absolute;left:-9999px;}
+
+.popup-placeholder {position:absolute;top:0;left:-9999px;width:100%;height:100%;overflow:auto;}
+.popup-placeholder-active {left:0;}
+.popup-placeholder-inner {margin:0 auto;max-width:600px;}
+.popup-placeholder-header {}
+.popup-placeholder-content {background:#fff;padding:20px;}
+
+.popup-placeholder-header a.close-button {float:right;margin-right:20px;font-family: 'Open Sans', sans-serif; font-weight: 400; font-size: 5em; color: #A2D2DC;}
+
+html {
+    background-repeat:no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+article h2 {font-family: 'Open Sans', sans-serif; font-weight: 400; font-size: 3em; color: #666;}
+	
+article p {font-family: "Arial", Gadget, sans-serif; font-size: 1em; color: #666;}
+
+

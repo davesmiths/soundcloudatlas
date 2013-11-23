@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+  <name>places</name>
+  <description><![CDATA[]]></description>
+  <Style id="style4">
+    <LineStyle>
+      <color>6633CCFF</color>
+      <width>1</width>
+    </LineStyle>
+    <PolyStyle>
+      <color>03FFFFFF</color>
+      <fill>1</fill>
+      <outline>1</outline>
+    </PolyStyle>
+  </Style>
+  <Style id="style1">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ALL/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style5">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style3">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style2">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Placemark>
+    <name>asdasdasd</name>
+    <description><![CDATA[<div dir="ltr">asdasdasdasd</div>]]></description>
+    <styleUrl>#style4</styleUrl>
+    <Polygon>
+      <outerBoundaryIs>
+        <LinearRing>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -6.255866,53.344563,0.000000
+            -6.255952,53.344139,0.000000
+            -6.255652,53.344154,0.000000
+            -6.255577,53.344475,0.000000
+            -6.255866,53.344563,0.000000
+          </coordinates>
+        </LinearRing>
+      </outerBoundaryIs>
+    </Polygon>
+  </Placemark>
+  <Placemark>
+    <name>Trinity College Dublin</name>
+    <description><![CDATA[<div dir="ltr">Some text here</div>]]></description>
+    <styleUrl>#style1</styleUrl>
+    <Point>
+      <coordinates>-6.257744,53.344223,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Merchants Hall</name>
+    <description><![CDATA[<div dir="ltr">Blah blah</div>]]></description>
+    <styleUrl>#style5</styleUrl>
+    <Point>
+      <coordinates>-6.263130,53.345768,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Jervis Shopping Centre</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style3</styleUrl>
+    <Point>
+      <coordinates>-6.265576,53.348148,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Someone Lives Here</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style2</styleUrl>
+    <Point>
+      <coordinates>-6.273354,53.348904,0.000000</coordinates>
+    </Point>
+  </Placemark>
+</Document>
+</kml>
